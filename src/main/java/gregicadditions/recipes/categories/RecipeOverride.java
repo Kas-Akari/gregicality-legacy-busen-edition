@@ -137,7 +137,7 @@ public class RecipeOverride {
                 .fluidInputs(Ethanol.getFluid(1000))
                 .fluidInputs(SulfuricAcid.getFluid(1000))
                 .fluidOutputs(Ethylene.getFluid(1000))
-                .fluidOutputs(DilutedSulfuricAcid.getFluid(1000))
+                .fluidOutputs(DilutedSulfuricAcid.getFluid(2000))
                 .buildAndRegister();
 
         // Chloramine from Hypochlorous Acid
